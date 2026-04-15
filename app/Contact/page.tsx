@@ -138,7 +138,7 @@ export default function ContactForm() {
         </h1>
         <p className="text-lg text-gray-600 leading-relaxed">
           Have a question or want to connect with a local professional? Fill out
-          the form below and we'll get back to you within one business day.
+          the form below and well get back to you within one business day.
         </p>
       </section>
 
@@ -159,7 +159,7 @@ export default function ContactForm() {
               </div>
               <h3 className="text-xl font-bold text-gray-800 mb-2">Thank you!</h3>
               <p className="text-gray-600 text-sm mb-4">
-                Your information has been received. We'll be in touch soon.
+                Your information has been received. Well be in touch soon.
               </p>
               <div className="text-left space-y-2 mb-4">
                 {[["Name", formData.name], ["Phone", formData.phone], ["Email", formData.email]].map(
